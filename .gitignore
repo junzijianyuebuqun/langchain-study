@@ -1,0 +1,24 @@
+# ===== 绝对不能上传 =====
+.env
+*.env
+!*.env.example
+
+# ===== Python =====
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ===== 本地 Python 环境（太大，不上传）=====
+python_3_12/
+
+# ===== 向量库数据（本地生成，可重建）=====
+chroma_db/
+week03/chroma_db/
+
+# ===== 运行产物 =====
+week04/notes.txt
+
+# ===== 编辑器 =====
+.idea/
+.vscode/
