@@ -22,3 +22,9 @@ week04/notes.txt
 # ===== 编辑器 =====
 .idea/
 .vscode/
+
+official_tutorials/chroma_pdf_db/
+official_tutorials/chroma_rag_db/
+official_tutorials/company.db
+official_tutorials/company_policy.pdf
+week08/company.db
