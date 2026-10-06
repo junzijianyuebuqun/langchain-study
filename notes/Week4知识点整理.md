@@ -1,5 +1,6 @@
 # Week 4 知识点整理（Day 18 ~ Day 23）
 
+> 🏷️ 所属模块：🦜 **LangChain**（langchain_core.tools + langchain.agents.create_agent；Agent 底层运行于 🕸️ LangGraph）
 > 📅 整理日期：2026-10-05 | 状态：全部完成 ✅
 >
 > 主题：Tool 工具 + Agent 智能体（ReAct 循环）

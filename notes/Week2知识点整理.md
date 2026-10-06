@@ -1,5 +1,6 @@
 # Week 2 知识点整理（Day 6 ~ Day 10）
 
+> 🏷️ 所属模块：🦜 **LangChain**（langchain_core: LCEL runnables / RunnableParallel / RunnablePassthrough / messages）
 > 📅 整理日期：2026-10-05 | 状态：全部完成 ✅
 >
 > 主题：LCEL 管道深入 + 对话记忆 + 综合实战（面试模拟器）

@@ -1,5 +1,6 @@
 # Week 5 知识点整理（Day 24 ~ Day 30）
 
+> 🏷️ 所属模块：🕸️ **LangGraph**（langgraph.graph StateGraph / langgraph.checkpoint 持久化 / interrupt 人工介入）
 > 📅 整理日期：2026-10-05 | 状态：全部完成 ✅
 >
 > 主题：LangGraph 高级编排 —— 把流程画成"图"

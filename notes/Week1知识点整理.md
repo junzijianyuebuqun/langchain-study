@@ -1,5 +1,6 @@
 # Week 1 知识点整理（Day 1 ~ Day 4）
 
+> 🏷️ 所属模块：🦜 **LangChain**（langchain_core: chat_models / messages / prompts / output_parsers + 集成包 langchain-deepseek）
 > 📅 整理日期：2026-10-05 | 状态：Day 1~4 已学完 ✅
 >
 > 本文档持续更新，每学完一天就追加。

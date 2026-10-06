@@ -4,18 +4,23 @@
 >
 > 技术栈：Python 3.12 · LangChain 1.3 · LangGraph 1.2 · DeepSeek · Chroma · sentence-transformers
 
-## 📂 项目结构
+## 📂 项目结构（按官网模块顺序：LangChain → LangGraph → LangSmith）
+
+> 🏷️ 模块图例：🦜 = LangChain | 🕸️ = LangGraph | 📊 = LangSmith
+> 详见 [notes/模块地图.md](notes/模块地图.md)
 
 ```
 langchain_study/
 ├── plan/          # 45天详细学习计划
-├── notes/         # Week1~7 知识点整理 + 面试冲刺手册
-├── week01/        # 核心三件套：ChatModel / Prompt / 输出解析
-├── week02/        # LCEL 管道 + 对话记忆 + 面试模拟器
-├── week03/        # ⭐ RAG 全流程：加载→切分→Embedding→向量库→问答
-├── week04/        # Tool 工具 + create_agent 智能体（ReAct 循环）
-├── week05/        # LangGraph：State/Node/Edge + 持久化 + 人工介入
-└── week06/        # ⭐ 求职项目：知识库问答系统 + 研究型 Agent
+├── notes/         # Week1~8 知识点整理 + 面试冲刺 + 模块地图
+├── week01/        # 🦜 核心三件套：ChatModel / Prompt / 输出解析
+├── week02/        # 🦜 LCEL 管道 + 对话记忆 + 面试模拟器
+├── week03/        # 🦜 RAG 全流程：加载→切分→Embedding→向量库→问答
+├── week04/        # 🦜 Tool 工具 + create_agent 智能体（ReAct 循环）
+├── week05/        # 🕸️ LangGraph：State/Node/Edge + 持久化 + 人工介入
+├── week06/        # 📊 LangSmith + ⭐求职项目：知识库问答 + 研究型 Agent
+├── week08/        # 🦜🕸️📊 官方 Learn 教程补全（7 个高级实战）
+└── official_tutorials/  # 📘 与官网教程页一一对应的代码（读官网配套练习）
 ```
 
 ## ⭐ 核心项目
@@ -56,3 +61,4 @@ python week03/day14_rag_full.py
 | [Week5 知识点](notes/Week5知识点整理.md) | LangGraph 状态机 |
 | [Week6 知识点](notes/Week6知识点整理.md) | LangSmith / 求职项目 |
 | [Week7 面试冲刺](notes/Week7面试冲刺.md) | 12 道高频题 + 简历模板 |
+| [Week8 官方教程补全](notes/Week8官方教程补全.md) | 分类/提取/摘要/SQL/Agentic RAG/图数据库/评估 |

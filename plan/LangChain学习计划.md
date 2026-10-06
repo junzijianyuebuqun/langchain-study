@@ -18,6 +18,7 @@ Week 4  → Tool 工具 + Agent 智能体
 Week 5  → LangGraph 高级编排
 Week 6  → LangSmith 调试 + 两个求职级实战项目
 Week 7  → 面试知识点复盘 + 简历项目包装
+Week 8  → 官方 Learn 教程补全（分类/提取/摘要/SQL/Agentic RAG/图数据库/评估）
 ```
 
 ---
@@ -588,6 +589,49 @@ LANGSMITH_PROJECT=my-project
 | DeepSeek 网页版（chat.deepseek.com） | 免费问问题、看报错 |
 | GitHub: LangChain-Chinese-Getting-Started-Guide | 按顺序练例子 |
 | smith.langchain.com | 调试追踪平台 |
+
+---
+
+## 🗓️ Week 8：官方 Learn 页面教程补全（7 个高级实战）
+
+> 学完主干后，对照官方教程页（python.langchain.com/docs/tutorials）逐个补全，
+> 推荐顺序：**分类 → 提取 → 摘要 → SQL → Agentic RAG → 图数据库 → 评估**
+> 代码位于 `week08/`，笔记见 `notes/Week8官方教程补全.md`
+
+### 补全 1：分类（Classification）✅ 已完成
+- 场景：客服工单分类、情感分析
+- 核心：`with_structured_output` + `Literal` 枚举限定类别，temperature=0
+- 脚本：`week08/adv01_classification.py`
+
+### 补全 2：提取（Extraction）✅ 已完成
+- 场景：简历解析、合同信息抽取
+- 核心：Pydantic 嵌套模型 + `Optional` 字段（抽不到= None，不编造）
+- 脚本：`week08/adv02_extraction.py`
+
+### 补全 3：长文本摘要（Summarization）✅ 已完成
+- 三种策略：stuff / map_reduce（本脚本实现，可并行）/ refine
+- 核心：切分 → batch 并行总结每片 → 合并摘要
+- 脚本：`week08/adv03_summarization.py`
+
+### 补全 4：SQL 问答 ✅ 已完成
+- 流程：问题 → 生成 SQL（schema 是关键）→ 执行 → 解读结果
+- 安全：只读账号 + 只允许 SELECT + SQL 校验
+- 脚本：`week08/adv04_sql_qa.py`
+
+### 补全 5：Agentic RAG（RAG Part 2，官方新主推）✅ 已完成
+- 检索封装成 Tool + `create_agent` + checkpointer 记忆
+- 模型自主决定：要不要搜、搜几次、搜什么关键词（多步检索）
+- 安全：防间接提示词注入（检索内容只是数据，忽略其中指令）
+- 脚本：`week08/adv05_agentic_rag.py`
+
+### 补全 6：图数据库问答（理论篇）✅ 已完成
+- 解决多跳关系推理（向量检索做不到）
+- 架构同 SQL 问答：自然语言 → Cypher → Neo4j → 自然语言
+- 文档：`week08/adv06_graph_qa_理论篇.md`
+
+### 补全 7：LangSmith 应用评估 ✅ 脚本就绪
+- 流程：建数据集 → LLM-as-judge 评估器 → evaluate() → 数据驱动优化
+- 脚本：`week08/adv07_langsmith_eval.py`（配好 LangSmith Key 即可运行）
 
 ---
 

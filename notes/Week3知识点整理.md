@@ -1,5 +1,6 @@
 # Week 3 知识点整理（Day 11 ~ Day 17）
 
+> 🏷️ 所属模块：🦜 **LangChain** + 集成包（document_loaders / text_splitters / embeddings / vectorstores: langchain-huggingface + langchain-chroma）
 > 📅 整理日期：2026-10-05 | 状态：全部完成 ✅
 >
 > 主题：⭐ RAG 检索增强生成（面试必考，整个学习计划最重要的一周）

@@ -1,5 +1,6 @@
 # Week 6 知识点整理（Day 31 ~ Day 38）
 
+> 🏷️ 所属模块：📊 **LangSmith**（tracing 链路追踪）+ 🦜🕸️ 综合实战（LangChain RAG + LangGraph 编排）
 > 📅 整理日期：2026-10-05 | 状态：全部完成 ✅
 >
 > 主题：LangSmith 调试 + 两个求职级实战项目
